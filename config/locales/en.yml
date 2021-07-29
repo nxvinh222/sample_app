@@ -2,6 +2,12 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      english: "English"
+      vietnamese: "Vietnamese"
   static_pages:
     home:
       fore_title: "Home"
@@ -9,6 +15,7 @@ en:
       intro_1: "This is the home page for the"
       name_tutorial: "Ruby on Rails Tutorial"
       intro_2: "sample application."
+      signup: "Sign up now!"
     help:
       fore_title: "Help"
       name: "Help"
@@ -17,3 +24,4 @@ en:
       intro_2: "To get help on this sample app, see the"
       name_2: "Ruby on Rails Tutorial"
       intro_3: "book"
+
