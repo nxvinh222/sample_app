@@ -2,6 +2,12 @@ vi:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
   static_pages:
     home:
       fore_title: "Trang chủ"
@@ -9,6 +15,7 @@ vi:
       intro_1: "Đây là trang chủ của"
       name_tutorial: "Ruby on Rails Tutorial"
       intro_2: "ứng dụng mẫu."
+      signup: "Đăng ký ngay!"
     help:
       fore_title: "Hỗ trợ"
       name_1: "Hỗ trợ"
