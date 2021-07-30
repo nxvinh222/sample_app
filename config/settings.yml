@@ -11,3 +11,4 @@ validate:
     max_length: 31
   password:
     min_length: 6
+gravatar_size: 80
