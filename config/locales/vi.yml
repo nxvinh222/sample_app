@@ -24,3 +24,27 @@ vi:
       intro_2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy tham khảo"
       name_2: "Ruby on Rails Tutorial"
       intro_3: "sách"
+  users:
+    new:
+      name: "Họ và tên"
+      birthday: "Ngày sinh"
+      gender: "Giới tính"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      sign_up: "Đăng nhập"
+      confirmation: "Xác nhận"
+      create_my_account: "Tạo tài khoản"
+    create:
+      welcome_to_the_sample_app!: "Chào mừng đến với ứng dụng này!"
+      registration_failed: "Đăng ký thất bại"
+    show:
+      created_at: "Ngày tạo: "
+      updated_at: "Ngày chỉnh sửa: "
+      user_not_found: "Người dùng không tồn tại !"
+  shared:
+    error_messages:
+      the_form_contains: "Form của bạn có "
+      error: "lỗi"
+  gender_lists:
+    male: "Nam"
+    female: "Nữ"

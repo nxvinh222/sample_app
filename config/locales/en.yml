@@ -24,4 +24,27 @@ en:
       intro_2: "To get help on this sample app, see the"
       name_2: "Ruby on Rails Tutorial"
       intro_3: "book"
-
+  users:
+    new:
+      name: "Name"
+      birthday: "Birthday"
+      gender: "Gender"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      sign_up: "Sign up"
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+    create:
+      welcome_to_the_sample_app!: "Welcome to the sample app!"
+      registration_failed: "Registration failed"
+    show:
+      created_at: "Created at: "
+      updated_at: "Updated at: "
+      user_not_found: "User not found!"
+  shared:
+    error_messages:
+      the_form_contains: "The form contains "
+      error: "error"
+  gender_lists:
+    male: "Male"
+    female: "Female"

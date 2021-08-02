@@ -1,6 +1,9 @@
 class User < ApplicationRecord
   before_save :downcase_email
 
+  PERMITTED_FIELDS = [:name, :email, :birthday, :gender, :password,
+                      :password_confirmation].freeze
+
   validates :name, presence: true,
             length: {
               maximum: Settings.validate.name.max_length
