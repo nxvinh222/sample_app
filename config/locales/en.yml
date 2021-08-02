@@ -6,6 +6,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
       english: "English"
       vietnamese: "Vietnamese"
   static_pages:
@@ -45,6 +50,11 @@ en:
     error_messages:
       the_form_contains: "The form contains "
       error: "error"
+  sessions:
+    new:
+      log_in: "Login"
+      password: "Password"
+      invalid_email_password_combination: "Invalid email and password combination"
   gender_lists:
     male: "Male"
     female: "Female"

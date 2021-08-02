@@ -6,6 +6,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
   static_pages:
@@ -45,6 +50,11 @@ vi:
     error_messages:
       the_form_contains: "Form của bạn có "
       error: "lỗi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      password: "Mật khẩu"
+      invalid_email_password_combination: "Sai email hoặc mật khẩu"
   gender_lists:
     male: "Nam"
     female: "Nữ"
