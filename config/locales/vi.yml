@@ -55,6 +55,9 @@ vi:
       log_in: "Đăng nhập"
       password: "Mật khẩu"
       invalid_email_password_combination: "Sai email hoặc mật khẩu"
+      remember_me: "Nhớ phiên đăng nhập trên máy tính này"
+      new_user?: "Chưa có tài khoản?"
+      sign_up_now!: "Đăng ký ngay!"
   gender_lists:
     male: "Nam"
     female: "Nữ"

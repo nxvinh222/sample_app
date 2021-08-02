@@ -55,6 +55,9 @@ en:
       log_in: "Login"
       password: "Password"
       invalid_email_password_combination: "Invalid email and password combination"
+      remember_me: "Remember me on this computer"
+      new_user?: "New user?"
+      sign_up_now!: "Sign up now!"
   gender_lists:
     male: "Male"
     female: "Female"
