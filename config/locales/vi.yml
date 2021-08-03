@@ -31,21 +31,44 @@ vi:
       intro_3: "sách"
   users:
     new:
+      create_my_account: "Tạo tài khoản"
+      sign_up: "Đăng ký"
+    form:
       name: "Họ và tên"
       birthday: "Ngày sinh"
       gender: "Giới tính"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
-      sign_up: "Đăng nhập"
+      sign_up: "Đăng ký"
       confirmation: "Xác nhận"
-      create_my_account: "Tạo tài khoản"
+    edit:
+      update_your_profile: "Chỉnh sửa hồ sơ"
+      edit_user: "Sửa hồ sơ"
+      change: "Đổi ảnh đại diện"
+      name: "Họ và tên"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      save_changes: "Lưu thay đổi"
+      user_not_found: "Người dùng không tồn tại!"
+    update:
+      profile_updated: "Cập nhật hồ sơ thành công"
+      profile_update_failed: "Cập nhật hồ sơ thất bại"
     create:
       welcome_to_the_sample_app!: "Chào mừng đến với ứng dụng này!"
       registration_failed: "Đăng ký thất bại"
     show:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
-      user_not_found: "Người dùng không tồn tại !"
+      user_not_found: "Người dùng không tồn tại!"
+    please_login: "Xin hãy đăng nhập"
+    index:
+      all_users: "Tất cả người dùng"
+    destroy:
+      user_deleted: "Xóa người dùng thành công"
+      delete_failed: "Không thể xóa người dùng"
+    user:
+      delete: "Xóa"
+      you_sure?: "Bạn chắc chắn?"
   shared:
     error_messages:
       the_form_contains: "Form của bạn có "
