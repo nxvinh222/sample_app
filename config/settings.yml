@@ -12,3 +12,5 @@ validate:
   password:
     min_length: 6
 gravatar_size: 80
+gravatar_medium_size: 50
+gravatar_email: "https://gravatar.com/emails"
