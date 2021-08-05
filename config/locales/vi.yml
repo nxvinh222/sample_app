@@ -56,6 +56,7 @@ vi:
     create:
       welcome_to_the_sample_app!: "Chào mừng đến với ứng dụng này!"
       registration_failed: "Đăng ký thất bại"
+      please_check_email: "Kiểm tra email để kích hoạt tài khoản."
     show:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
@@ -81,6 +82,20 @@ vi:
       remember_me: "Nhớ phiên đăng nhập trên máy tính này"
       new_user?: "Chưa có tài khoản?"
       sign_up_now!: "Đăng ký ngay!"
+    create:
+      account_not_activated: "Tài khoản chưa kích hoạt. Truy cập mail để kích hoạt tài khoản."
   gender_lists:
     male: "Nam"
     female: "Nữ"
+  account_activations:
+    edit:
+      account_activated: "Kích hoạt tài khoản thành công"
+      invalid_activation_link: "Đường dẫn kích hoạt thất bại"
+  user_mailer:
+    account_activation:
+      mailer:
+        hi: "Xin chào"
+        content: "Chào mừng đến với Ứng dụng mẫu! Nhấn vào link dưới đây để kích hoạt tài khoản:"
+        sample_app: "Ứng dụng mẫu"
+        account_activation: "Kích hoạt tài khoản"
+        reset: "Lấy lại mật khẩu"

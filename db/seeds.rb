@@ -2,7 +2,7 @@ User.create!(name: "Million Cloud",
              email: "abc@gmail.com",
              password: "123456",
              password_confirmation: "123456",
-             admin: true)
+             admin: true, activated: true, activated_at: Time.zone.now)
 99.times do |n|
   name = Faker::Name.name
   email = "test-#{n+1}@gmail.com"

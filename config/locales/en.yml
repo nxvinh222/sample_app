@@ -56,6 +56,7 @@ en:
     create:
       welcome_to_the_sample_app!: "Welcome to the sample app!"
       registration_failed: "Registration failed"
+      please_check_email: "Please check your email to activate your account."
     show:
       created_at: "Created at: "
       updated_at: "Updated at: "
@@ -81,6 +82,20 @@ en:
       remember_me: "Remember me on this computer"
       new_user?: "New user?"
       sign_up_now!: "Sign up now!"
+    create:
+      account_not_activated: "Account not activated. Check your email for the activation link."
   gender_lists:
     male: "Male"
     female: "Female"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      mailer:
+        hi: "Hi"
+        content: "Welcome to the Sample App! Click on the link below to activate your account:"
+        sample_app: "Sample App"
+        account_activation: "Active account"
+        reset: "Reset password"

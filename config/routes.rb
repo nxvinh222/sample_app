@@ -5,10 +5,12 @@ Rails.application.routes.draw do
     get "/help", to: "static_pages#help"
 
     get "/signup", to: "users#new"
-    resources :users
 
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
+
+    resources :users
+    resources :account_activations, only: :edit
   end
 end
