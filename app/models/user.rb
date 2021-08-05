@@ -1,11 +1,13 @@
 class User < ApplicationRecord
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
   before_create :create_activation_digest
 
   PERMITTED_FIELDS = [:name, :email, :birthday, :gender, :password,
                       :password_confirmation].freeze
+
+  PERMITTED_PASSWORD_FIELDS = [:password, :password_confirmation].freeze
 
   validates :name, presence: true,
             length: {
@@ -63,6 +65,24 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update_columns reset_digest: User.digest(reset_token),
+                   reset_sent_at: Time.zone.now
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
+  end
+
+  def reset_digest_after_update
+    update_attribute :reset_digest, nil
+  end
+
+  def password_reset_expired?
+    reset_sent_at < Settings.reset_pass_expired_time.hours.ago
   end
 
   private

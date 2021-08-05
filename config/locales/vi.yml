@@ -82,6 +82,7 @@ vi:
       remember_me: "Nhớ phiên đăng nhập trên máy tính này"
       new_user?: "Chưa có tài khoản?"
       sign_up_now!: "Đăng ký ngay!"
+      forgot_password: "Quên mật khẩu?"
     create:
       account_not_activated: "Tài khoản chưa kích hoạt. Truy cập mail để kích hoạt tài khoản."
   gender_lists:
@@ -97,5 +98,26 @@ vi:
         hi: "Xin chào"
         content: "Chào mừng đến với Ứng dụng mẫu! Nhấn vào link dưới đây để kích hoạt tài khoản:"
         sample_app: "Ứng dụng mẫu"
-        account_activation: "Kích hoạt tài khoản"
-        reset: "Lấy lại mật khẩu"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      click_below: "Nhấn vào liên kết bên dưới để đặt lại mật khẩu:"
+      link_expire: "Liên kết sẽ hết hạn sau 2 tiếng."
+      ignore_reset: " Nếu bạn không thực hiện hành động này, đừng làm gì và mật khẩu của bạn sẽ giữ nguyên."
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+    create:
+      reset_password_email_sent: "Kiểm tra email để reset mật khẩu"
+      email_not_found: "Email không tồn tại"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      password: "Mật khẩu mới"
+    update:
+      can_not_empty: "Mật khẩu không được để trống"
+      pass_reset_ok: "Mật khẩu thay đổi thành công"
+      reset_failed: "Đặt lại mật khẩu thất bại"
+    password_reset_expired: "Thời gian đặt lại mật khẩu đã hết."
+  account_activation: "Kích hoạt tài khoản"
+  reset: "Lấy lại mật khẩu"
