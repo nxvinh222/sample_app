@@ -13,4 +13,5 @@ Turbolinks.start()
 ActiveStorage.start()
 
 require("jquery")
+require("packs/check_img")
 import "bootstrap"

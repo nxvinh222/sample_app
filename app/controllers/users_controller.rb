@@ -1,14 +1,16 @@
 class UsersController < ApplicationController
   before_action :load_user, except: %i(index new create)
   before_action :logged_in_user, except: %i(show create new)
-  before_action :correct_user, only: %i(edit update destroy)
+  before_action :correct_user, only: %i(edit update)
   before_action :admin?, only: :destroy
 
   def index
-    @users = User.all.page params[:page]
+    @users = User.page params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page params[:page]
+  end
 
   def edit; end
 
@@ -39,7 +41,7 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    if @user.destroy
+    if current_user != @user && @user.destroy
       flash[:success] = t ".user_deleted"
     else
       flash[:danger] = t ".delete_failed"
@@ -51,14 +53,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::PERMITTED_FIELDS
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".please_login"
-    redirect_to login_url
   end
 
   def correct_user

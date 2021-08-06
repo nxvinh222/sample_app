@@ -21,6 +21,7 @@ vi:
       name_tutorial: "Ruby on Rails Tutorial"
       intro_2: "ứng dụng mẫu."
       signup: "Đăng ký ngay!"
+      feed: "Danh sách bài viết"
     help:
       fore_title: "Hỗ trợ"
       name_1: "Hỗ trợ"
@@ -61,6 +62,7 @@ vi:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
       user_not_found: "Người dùng không tồn tại!"
+      microposts: "Bài viết"
     please_login: "Xin hãy đăng nhập"
     index:
       all_users: "Tất cả người dùng"
@@ -74,6 +76,12 @@ vi:
     error_messages:
       the_form_contains: "Form của bạn có "
       error: "lỗi"
+    user_info:
+      view_my_profile: "xem trang cá nhân"
+      micropost: "bài viết"
+    micropost_form:
+      compose_new_micropost: "Soạn bài viết với..."
+      post: "Đăng bài"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -121,3 +129,27 @@ vi:
     password_reset_expired: "Thời gian đặt lại mật khẩu đã hết."
   account_activation: "Kích hoạt tài khoản"
   reset: "Lấy lại mật khẩu"
+  microposts:
+    micropost:
+      posted: "Được đăng"
+      ago: "trước"
+      delete: "xóa"
+      you_sure: "Bạn có chắc chắn?"
+    create:
+      micropost_created: "Tạo bài viết thành công"
+      create_failed: "Tạo bài viết thất bại"
+    destroy:
+      micropost_deleted: "Đã xóa bài viết"
+      deleted_fail: "Xóa bài viết thất bại"
+    invalid_micropost: "Bài viết không hợp lệ"
+  application:
+    please_login: "Xin hãy đăng nhập"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format_image: "file không đúng định dạng"
+              should_smaller: "file phải nhỏ hơn 5mb"
+  choose_smaller_file: "File được chọn lớn hơn 5MB. Xin hãy chọn file nhỏ hơn."

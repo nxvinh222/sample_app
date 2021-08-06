@@ -15,3 +15,12 @@ gravatar_size: 80
 gravatar_medium_size: 50
 gravatar_email: "https://gravatar.com/emails"
 reset_pass_expired_time: 2
+micropost_max_size: 140
+image_restricted_types:
+  - image/jpeg
+  - image/gif
+  - image/png
+max_image_size: 5
+image_size_limit:
+  - 500
+  - 500
