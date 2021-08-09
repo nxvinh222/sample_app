@@ -72,6 +72,8 @@ en:
     user:
       delete: "Delete"
       you_sure?: "You sure?"
+    show_follow:
+      view_my_profile: "view my profile"
   shared:
     error_messages:
       the_form_contains: "The form contains "
@@ -82,6 +84,9 @@ en:
     micropost_form:
       compose_new_micropost: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       log_in: "Login"
@@ -153,3 +158,9 @@ en:
               invalid_format_image: "must be a valid image format"
               should_smaller: "should be less than 5MB"
   choose_smaller_file: "Maximum file size is 5MB. Please choose a smaller file."
+  following:
+    index:
+      following: "Following"
+  followers:
+    index:
+      followers: "Followers"
