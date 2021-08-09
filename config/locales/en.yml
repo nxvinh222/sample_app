@@ -21,6 +21,7 @@ en:
       name_tutorial: "Ruby on Rails Tutorial"
       intro_2: "sample application."
       signup: "Sign up now!"
+      feed: "Micropost feed"
     help:
       fore_title: "Help"
       name: "Help"
@@ -61,6 +62,7 @@ en:
       created_at: "Created at: "
       updated_at: "Updated at: "
       user_not_found: "User not found!"
+      microposts: "Microposts"
     please_login: "Please login"
     index:
       all_users: "All users"
@@ -74,6 +76,12 @@ en:
     error_messages:
       the_form_contains: "The form contains "
       error: "error"
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       log_in: "Login"
@@ -121,3 +129,27 @@ en:
     password_reset_expired: "Password reset has expired."
   account_activation: "Active account"
   reset: "Reset password"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "delete"
+      you_sure: "You sure?"
+    create:
+      micropost_created: "Micropost created!"
+      create_failed: "Failed to create micropost!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      deleted_fail: "Failed to delete micropost"
+    invalid_micropost: "Micropost invalid"
+  application:
+    please_login: "Please login"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format_image: "must be a valid image format"
+              should_smaller: "should be less than 5MB"
+  choose_smaller_file: "Maximum file size is 5MB. Please choose a smaller file."

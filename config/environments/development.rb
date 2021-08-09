@@ -86,4 +86,6 @@ Rails.application.configure do
 
   # Allow connections to local server.
   config.hosts.clear
+
+  config.middleware.use I18n::JS::Middleware
 end
