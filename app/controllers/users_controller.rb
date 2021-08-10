@@ -62,9 +62,4 @@ class UsersController < ApplicationController
   def admin?
     redirect_to root_url unless current_user.admin?
   end
-
-  def load_user
-    @user = User.find params[:id]
-    # exception handled in application controller
-  end
 end

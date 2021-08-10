@@ -72,6 +72,8 @@ vi:
     user:
       delete: "Xóa"
       you_sure?: "Bạn chắc chắn?"
+    show_follow:
+      view_my_profile: "xem hồ sơ"
   shared:
     error_messages:
       the_form_contains: "Form của bạn có "
@@ -82,6 +84,9 @@ vi:
     micropost_form:
       compose_new_micropost: "Soạn bài viết với..."
       post: "Đăng bài"
+    stats:
+      following: "Theo dõi"
+      followers: "Người theo dõi"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -153,3 +158,9 @@ vi:
               invalid_format_image: "file không đúng định dạng"
               should_smaller: "file phải nhỏ hơn 5mb"
   choose_smaller_file: "File được chọn lớn hơn 5MB. Xin hãy chọn file nhỏ hơn."
+  following:
+    index:
+      following: "Theo dõi"
+  followers:
+    index:
+      followers: "Người theo dõi"
